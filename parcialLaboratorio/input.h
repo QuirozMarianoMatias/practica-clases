@@ -73,10 +73,44 @@ int getName (char* msg, char* msgError, int mini, int maxi, int reintentos, char
  */
 int getString(char* msg, char* msgError, int mini, int maxi, int* reintentos, char* resultado);
 
+/** \brief esta funcion recibe una cadena de caracteres y la valida una patente los tres primeros numeros y los otros 3 letras
+ *
+ * \param msg char* se le ingresa un mensaje al usuario para que ingrese el dato
+ * \param msgError char* se le muestra un mensaje de error al usuario
+ * \param mini int cantidad minima de la cadena de caracteres
+ * \param maxi int cantidad maxima de la cadena de caracteres
+ * \param reintentos int* cantidad de reintentos que tiene el usuario para ingresar el dato correctamente
+ * \param resultado char* si se ingreso correctamente el dato se le da el valor a la variable a travez del puntero resultado
+ * \return int retorna -1 si se acabaron los reintentos y no se ingreso el dato correctamente y 0 si se ingreso correctamente el dato
+ *
+ */
 int getPatente (char* msg, char* msgError, int mini, int maxi, int reintentos, char* resultado);
 
+/** \brief esta funcion recibe una cadena de caracteres y busca si contiene algun caracter que no sea un numero o una letra
+ *
+ * \param stringRecibido char* recibe una cadena de caracteres
+ * \return int devuelve 1 si no encontro error y 0 si encontro algun caracter que no sea un numero o una letra
+ *
+ */
 int isValedPatente (char* stringRecibido);
 
+/** \brief esta funcion recibe una cadena de caracteres y la valida
+ *
+ * \param msg char* se le ingresa un mensaje al usuario para que ingrese el dato
+ * \param msgError char* se le muestra un mensaje de error al usuario
+ * \param mini int cantidad minima de la cadena de caracteres
+ * \param maxi int cantidad maxima de la cadena de caracteres
+ * \param reintentos int* cantidad de reintentos que tiene el usuario para ingresar el dato correctamente
+ * \param resultado char* si se ingreso correctamente el dato se le da el valor a la variable a travez del puntero resultado
+ * \return int retorna -1 si se acabaron los reintentos y no se ingreso el dato correctamente y 0 si se ingreso correctamente el dato
+ *
+ */
 int getSex (char* msg, char* msgError, int mini, int maxi, int reintentos, char* resultado);
+/** \brief esta funcion recibe una cadena de caracteres y busca si contiene un caracter que no sea un F o M o f o m
+ *
+ * \param stringRecibido char* recibe una cadena de caracteres
+ * \return int devuelve 1 si no encontro error y 0 si encontro algun caracter que no sea un numero o una letra
+ *
+ */
 
 int isValidSex (char* stringRecibido);

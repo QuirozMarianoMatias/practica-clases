@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1590032363 source:c:\users\quiroz family\desktop\maty lab1\laboratorio-1b\parciallaboratorio\main.c
+1590032591 source:c:\users\quiroz family\desktop\maty lab1\laboratorio-1b\parciallaboratorio\main.c
 	<stdio.h>
 	<stdlib.h>
 	"menu.h"
@@ -7,7 +7,7 @@
 1590030797 c:\users\quiroz family\desktop\maty lab1\laboratorio-1b\parciallaboratorio\camiones.h
 	"choferes.h"
 
-1590025157 c:\users\quiroz family\desktop\maty lab1\laboratorio-1b\parciallaboratorio\choferes.h
+1590060302 c:\users\quiroz family\desktop\maty lab1\laboratorio-1b\parciallaboratorio\choferes.h
 	"input.h"
 
 1590029144 source:c:\users\quiroz family\desktop\maty lab1\laboratorio-1b\parciallaboratorio\choferes.c
@@ -31,7 +31,7 @@
 	<string.h>
 	"choferesCamiones.h"
 
-1589979843 c:\users\quiroz family\desktop\maty lab1\laboratorio-1b\parciallaboratorio\input.h
+1590060539 c:\users\quiroz family\desktop\maty lab1\laboratorio-1b\parciallaboratorio\input.h
 	<stdio.h>
 	<string.h>
 	<stdlib.h>
@@ -42,6 +42,6 @@
 1590032215 c:\users\quiroz family\desktop\maty lab1\laboratorio-1b\parciallaboratorio\menu.h
 	"choferesCamiones.h"
 
-1590032229 source:c:\users\quiroz family\desktop\maty lab1\laboratorio-1b\parciallaboratorio\menu.c
+1590032591 source:c:\users\quiroz family\desktop\maty lab1\laboratorio-1b\parciallaboratorio\menu.c
 	"menu.h"
 
